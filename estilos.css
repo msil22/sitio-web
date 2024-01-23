@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: 'Press Start 2P', system-ui;    
+}
+
+#imagen1{
+    height: 600px;
+    display: block;
+    margin: auto;
+}
+
+img{
+    height: 200px;
+}
+
+h1{
+    padding-top: 80px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    font-size: 30px;
+}
+
+p{
+    color: white;
+}
+
+.div1{
+    display: flex;
+    padding-block: 40px;
+}
+
+.div2{
+    display: flex;
+    padding-block: 40px;
+}
+
+#imagen2{
+    height: 350px;
+    margin-right: 60px;
+}
+
+#imagen1{
+    height: 350px;
+    margin-right: 60px;
+}
+
+#imagen3{
+    height: 700px;
+    margin-left: 60px;
+}
+
+.texto{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.paginas {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+footer{
+    color: white;
+}
