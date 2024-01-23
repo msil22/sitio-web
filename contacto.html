@@ -10,11 +10,26 @@
     <title>contacto</title>
 </head>
 <body>
-    <ul id="nav">
-        <li class="paginas"><a class="active" href="index.html">Inicio</a></li>
-        <li class="paginas"><a href="quienessomos.html">Quienes somos</a></li>
-        <li class="paginas"><a href="contacto.html">Contacto</a></li>
-    </ul>
+    <div class="p-3 mb-2 bg-dark-subtle text-emphasis-dark">
+        <nav class="navbar fixed-top bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="quienessomos.html">Quienes somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
     <h1>¡CONTÁCTENOS!</h1>
     <form action="mailto:tu@email.com" method="post">
     <input type="text" name="nombre" placeholder="Nombre">
