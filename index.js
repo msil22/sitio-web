@@ -3,7 +3,6 @@ document.querySelector("form").addEventListener("submit", function(event) {
     let nombre = document.querySelector("input[name='nombre']").value;
     let correo = document.querySelector("input[name='correo']").value;
     let mensaje = document.querySelector("input[name='mensaje']").value;
-    // Enviar el correo electrónico
     let email = new Email({
     to: "tu@email.com",
     subject: "Mensaje de contacto",
