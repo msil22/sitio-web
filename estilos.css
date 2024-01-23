@@ -106,3 +106,23 @@ li a:hover:not(.active) {
 footer{
     color: white;
 }
+
+#carouselExampleIndicators{
+    margin-bottom: 100px;
+}
+
+
+.carrusel{
+    max-width: 650px;
+    margin: auto;
+}
+
+
+.textoBase{
+    max-width: 800px;
+    margin: auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    display: flex;
+    align-items: center;
+}
