@@ -4,24 +4,31 @@
     box-sizing: border-box;
 }
 
+.texto{
+    text-align: center;
+}
+
+#col2{
+    background-color: #3E848C;
+}
+
 body{
-    background-color: black;
+    background-color: #3DF27C;
     font-family: 'Press Start 2P', system-ui;    
 }
 
 #imagen1{
     height: 600px;
-    display: block;
-    margin: auto;
 }
 
-img{
-    height: 200px;
+#gif{
+    height: fit-content;
 }
+
 
 h1{
     padding-top: 80px;
-    color: white;
+    color: #3E848C;
     font-size: 40px;
     text-align: center;
 }
@@ -29,10 +36,11 @@ h1{
 h2{
     color: white;
     font-size: 30px;
+    text-align: center;
 }
 
 p{
-    color: white;
+    color: black;
 }
 
 .div1{
